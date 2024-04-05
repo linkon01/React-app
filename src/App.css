@@ -1,7 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  height: 100vh;
+}
 .App {
   text-align: center;
+  width: 400px;
 }
-
+.Welcome {
+  padding-bottom: 20px;
+  border: 5px black;
+}
+.Counter {
+  display: flex;
+  justify-content: center;
+}
+.Counter > h1 {
+  margin-right: 20px;
+  margin-bottom: 22px;
+}
+.Counter > button {
+  background-color:beige;
+  margin: auto;
+  border-radius: 10px;
+  border-color: darkgray;
+}
+.dropdown {
+  margin-bottom: 10px;
+}
+ul {
+  padding: 0%;
+  list-style:none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
